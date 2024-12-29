@@ -13,6 +13,7 @@
             <captureExperimentalAttributes>true</captureExperimentalAttributes>
             <captureMdcAttributes>*</captureMdcAttributes>
             <captureKeyValuePairAttributes>true</captureKeyValuePairAttributes>
+            <captureMarkerAttribute>true</captureMarkerAttribute>
   </appender>
 
   <root level="INFO">

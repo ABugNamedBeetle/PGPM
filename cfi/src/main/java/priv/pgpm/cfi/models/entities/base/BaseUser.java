@@ -2,12 +2,16 @@ package priv.pgpm.cfi.models.entities.base;
 
 import java.util.List;
 
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
 
 @MappedSuperclass
 public abstract class BaseUser {
 
     // uuid, userID, identity, address, list account, type
+    
     private Integer uuid;
 
     private BaseUser.Type userType; 

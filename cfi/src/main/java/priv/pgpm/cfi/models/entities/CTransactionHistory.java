@@ -1,5 +1,5 @@
 package priv.pgpm.cfi.models.entities;
 
-public class TransactionalLedger {
+public class CTransactionHistory {
 
 }

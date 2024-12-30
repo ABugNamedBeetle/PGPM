@@ -11,6 +11,7 @@ import org.springframework.boot.actuate.autoconfigure.tracing.otlp.OtlpTracingAu
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.core.env.Environment;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.stereotype.Component;
 
 import io.opentelemetry.api.OpenTelemetry;
@@ -29,6 +30,7 @@ import io.opentelemetry.semconv.ResourceAttributes;
 import io.opentelemetry.instrumentation.logback.appender.v1_0.OpenTelemetryAppender;
 
 @SpringBootApplication
+@EnableJpaAuditing
 public class CfiApplication {
 
     // OtlpLoggingAutoConfiguration

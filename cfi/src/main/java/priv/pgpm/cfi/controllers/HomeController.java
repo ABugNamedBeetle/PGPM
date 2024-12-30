@@ -8,6 +8,7 @@ import io.micrometer.core.instrument.Counter;
 import io.micrometer.core.instrument.MeterRegistry;
 import io.micrometer.observation.Observation;
 import io.micrometer.observation.ObservationRegistry;
+import priv.pgpm.cfi.models.entities.CMessage;
 
 import java.time.LocalDateTime;
 
@@ -67,6 +68,9 @@ public class HomeController {
     @GetMapping("throw")
     public void throwError() throws Exception {
         String g = LocalDateTime.now().toString();
+
+        // CMessage m = new CMessage();
+        // m.getInstructionId()
         throw new Exception("exception thrown at " + g);
 
     }

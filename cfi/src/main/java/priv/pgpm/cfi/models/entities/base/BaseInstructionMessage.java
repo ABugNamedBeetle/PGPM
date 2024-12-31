@@ -1,6 +1,7 @@
 package priv.pgpm.cfi.models.entities.base;
 
 import java.time.LocalDateTime;
+import java.util.Currency;
 
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
@@ -32,8 +33,11 @@ public class BaseInstructionMessage {
 
     protected int instructionId;
     protected Long amount;
-    protected String originatorReserveAccount;
-    protected String benificiaryReserveAccount;
+    protected Currency currencyCode;
+    protected String originatorFSC;
+    @jakarta.annotation.Nullable
+    protected String benificiaryFSC;
+    @jakarta.annotation.Nullable
     protected String destinationVirtualAccount;
     protected InstructionMessage.PurposeCode purposeCode;
 

@@ -31,6 +31,7 @@ import io.opentelemetry.instrumentation.logback.appender.v1_0.OpenTelemetryAppen
 
 @SpringBootApplication
 @EnableJpaAuditing
+
 public class CfiApplication {
 
     // OtlpLoggingAutoConfiguration

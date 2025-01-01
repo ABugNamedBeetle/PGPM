@@ -53,7 +53,7 @@ public class InstructionRequestValidator implements ConstraintValidator<ValidIns
                 // Validate Currency Code
                 try {
                     Currency.getInstance(instruction.getCurrencyCode());
-                } catch (IllegalArgumentException e) {
+                } catch (Exception e) {
                     String msg = "Violated Currency Code with illegal value :: " + instruction.getCurrencyCode();
                     addInstrucitonViolation("messages", "currencyCode", index, msg, context);
                     isValid = false;

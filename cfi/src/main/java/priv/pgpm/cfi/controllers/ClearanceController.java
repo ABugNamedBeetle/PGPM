@@ -8,6 +8,7 @@ import priv.pgpm.cfi.models.requests.InstructionRequest;
 import priv.pgpm.cfi.models.responses.InstructionResponse;
 import priv.pgpm.cfi.services.InstructionProcessingService;
 
+import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -40,7 +41,7 @@ public class ClearanceController {
 
     @PostMapping("accept-instructions")
     public ResponseEntity<?> acceptInstructions(@RequestBody @Validated InstructionRequest request, BindingResult bindingResult) {
-       
+        LOGGER.info("accept-instructions as "+ LocalDateTime.now().toString() );
         if (bindingResult.hasErrors()) {
            Map<String, String> errors = new HashMap<>();
             bindingResult.getAllErrors().forEach((error) -> {

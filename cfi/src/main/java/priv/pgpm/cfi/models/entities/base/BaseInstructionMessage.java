@@ -31,7 +31,8 @@ public class BaseInstructionMessage {
     @LastModifiedDate
     private LocalDateTime updatedDate;
 
-    protected int instructionId;
+    private String refRequestId;
+    protected Long refInstructionId;
     protected Long amount;
     protected Currency currencyCode;
     protected String originatorFSC;

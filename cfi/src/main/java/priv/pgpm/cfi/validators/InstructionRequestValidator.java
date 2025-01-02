@@ -20,7 +20,7 @@ public class InstructionRequestValidator implements ConstraintValidator<ValidIns
     @Override
     public boolean isValid(InstructionRequest value, ConstraintValidatorContext context) {
         context.disableDefaultConstraintViolation();
-        System.out.println("validated");
+        // System.out.println("validated")
         boolean isValid = true;
 
         if (value.getRequestId() == null || value.getRequestId().length() < 10) {

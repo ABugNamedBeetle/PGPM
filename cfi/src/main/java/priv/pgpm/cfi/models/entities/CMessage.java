@@ -29,12 +29,12 @@ public class CMessage extends BaseInstructionMessage { // clearning message
      */
     @Id
     @Column(name = "Id")
-    // @CINSequenceID(name = "sds", incrementBy = 1)
-    @GeneratedValue(generator = "custom-order-id")
-    @GenericGenerator(
-        name = "custom-order-id",
-        strategy = "priv.pgpm.cfi.models.entities.base.CINSequenceGenerator"
-    )
+    @CINSequenceID(name = "sds", incrementBy = 1)
+    // @GeneratedValue(generator = "custom-order-id")
+    // @GenericGenerator(
+    //     name = "custom-order-id",
+    //     strategy = "priv.pgpm.cfi.models.entities.base.CINSequenceGenerator"
+    // )
     private String cInstructionId;
     private String cRequestId;
 

@@ -21,8 +21,8 @@ import priv.pgpm.cfi.models.core.InstructionMessage;
 @EntityListeners(AuditingEntityListener.class)
 public class BaseInstructionMessage {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    // @Id
+    // @GeneratedValue(strategy = GenerationType.AUTO)
     private int uuid;
 
     @CreatedDate

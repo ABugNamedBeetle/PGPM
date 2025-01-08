@@ -1,9 +1,12 @@
 package priv.pgpm.cfi.models.entities.base;
 
+import java.lang.annotation.Annotation;
 import java.lang.reflect.Member;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.EnumSet;
 import java.util.Properties;
 
@@ -13,6 +16,7 @@ import org.hibernate.boot.model.relational.Database;
 import org.hibernate.boot.model.relational.Namespace;
 import org.hibernate.engine.jdbc.env.spi.IdentifierHelper;
 import org.hibernate.engine.spi.SharedSessionContractImplementor;
+import org.hibernate.generator.AnnotationBasedGenerator;
 import org.hibernate.generator.BeforeExecutionGenerator;
 import org.hibernate.generator.EventType;
 import org.hibernate.generator.GeneratorCreationContext;
@@ -21,7 +25,7 @@ import org.hibernate.id.enhanced.SequenceStyleGenerator;
 import org.hibernate.type.descriptor.java.spi.JavaTypeBasicAdaptor;
 import org.hibernate.type.descriptor.jdbc.NumericJdbcType;
 import org.hibernate.type.internal.NamedBasicTypeImpl;
-
+import org.apache.tomcat.util.net.jsse.PEMFile;
 import org.hibernate.MappingException;
 import org.hibernate.engine.spi.SharedSessionContractImplementor;
 import org.hibernate.id.enhanced.SequenceStyleGenerator;
@@ -33,31 +37,68 @@ import org.hibernate.type.internal.NamedBasicTypeImpl;
 
 import static org.hibernate.generator.EventTypeSets.INSERT_ONLY;
 
-public class CINSequenceGenerator extends SequenceStyleGenerator {
+public class CINSequenceGenerator implements IdentifierGenerator, AnnotationBasedGenerator<CINSequenceID>{
 
-    // private final String sqlSelectFrag;
-    // private final String entityName;
-    
-	private final String propertyName;
-
-	public CINSequenceGenerator(CINSequenceID annotation, Member member, GeneratorCreationContext context) {
-		// entityName = context.getPersistentClass() == null
-		// 		? member.getDeclaringClass().getName() //it's an attribute of an embeddable
-		// 		: context.getPersistentClass().getEntityName();
-        System.out.println(annotation.name());
-		propertyName = context.getProperty().getName();
-		// propertyName = ;context.getProperty().getName();
-	}
-    
+    private String GET_CURRENT_VALUE_QUERY;
+    private String UPDATE_NEXT_VALUE_QUERY;
+    private Long limit = null;
+    private Long curr = null;
 
     @Override
     public Object generate(SharedSessionContractImplementor session, Object object) {
-        Object sequenceValue = 1111;
-        if (!(sequenceValue instanceof Number)) {
-            throw new IllegalArgumentException("Expected a numeric sequence value");
-        }
+        if(curr == null || curr == limit-1){
+            curr = session.doReturningWork(connection -> {
+                Long currentValue = null;
+                 // Get the current value
+                 try (PreparedStatement getStmt = connection.prepareStatement(GET_CURRENT_VALUE_QUERY)) {
+                     
+                     try (ResultSet rs = getStmt.executeQuery()) {
+                         if (rs.next()) {
+                             currentValue = rs.getLong(1);
+                         } else {
+                             throw new SQLException("Sequence not found");
+                         }
+                     }
+                 }
+     
+                 // Calculate the next value
+                 Long nextValue = currentValue + 50;
+     
+                 // Update the next value in the database
+                 try (PreparedStatement updateStmt = connection.prepareStatement(UPDATE_NEXT_VALUE_QUERY)) {
+                     updateStmt.setLong(1, nextValue);
+                     
+                     int rowsUpdated = updateStmt.executeUpdate();
+                     if (rowsUpdated != 1) {
+                         throw new SQLException("Failed to update the sequence");
+                     }
+                 }
+     
+                 // Return the current value for the generated identifier
+                 System.out.println("generated = "+ currentValue);
+                 System.out.println("next val = "+ nextValue);
+                 return currentValue;
+             });
+            limit = curr + 50;
+        }else{
 
-        return "USR" + String.format("%05d", ((Number) sequenceValue).longValue());
+            curr++;
+        }
+        
+        
+        return String.format("CIN%s%d", LocalDate.now().format( DateTimeFormatter.ofPattern("YYMMDD")), curr);
+    }
+
+    
+
+   
+
+    @Override
+    public void initialize(CINSequenceID config, Member member, GeneratorCreationContext context) {
+       String entityName = config.name();
+       System.out.println(entityName);
+       this.GET_CURRENT_VALUE_QUERY = "SELECT value FROM "+entityName+" WHERE id = 1";
+        this.UPDATE_NEXT_VALUE_QUERY = "UPDATE "+entityName+" SET value = ? WHERE id = 1";
     }
 
     // @Override

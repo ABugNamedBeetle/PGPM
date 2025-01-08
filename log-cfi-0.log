@@ -6345,3 +6345,1422 @@ Action:
 
 Consider defining a bean of type 'priv.pgpm.cfi.models.entities.base.CINSequenceID' in your configuration.
 
+04-01-2025 19:03:52.745 [background-preinit] INFO  [,,] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+04-01-2025 19:03:52.835 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 19564 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+04-01-2025 19:03:52.844 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+04-01-2025 19:03:52.955 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+04-01-2025 19:03:52.955 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+04-01-2025 19:03:56.647 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-01-2025 19:03:56.786 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interface.
+04-01-2025 19:03:58.387 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+04-01-2025 19:03:58.414 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+04-01-2025 19:03:58.421 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+04-01-2025 19:03:58.422 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+04-01-2025 19:03:58.524 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+04-01-2025 19:03:58.525 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5570 ms
+04-01-2025 19:03:58.883 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 19:03:59.171 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 19:03:59.219 [restartedMain] DEBUG [,,] i.o.sdk.internal.JavaVersionSpecific - Using the APIs optimized for: Java 9+
+04-01-2025 19:03:59.607 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+04-01-2025 19:04:00.673 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-01-2025 19:04:00.809 [restartedMain] INFO  [,,] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.4.Final
+04-01-2025 19:04:00.903 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+04-01-2025 19:04:01.886 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+04-01-2025 19:04:01.942 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+04-01-2025 19:04:02.489 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14cb070b
+04-01-2025 19:04:02.494 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+04-01-2025 19:04:02.646 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-01-2025 19:04:04.186 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+04-01-2025 19:04:05.876 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 19:04:06.629 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-01-2025 19:04:09.972 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+04-01-2025 19:04:10.017 [restartedMain] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+04-01-2025 19:04:10.202 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+04-01-2025 19:04:10.287 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+04-01-2025 19:04:10.423 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 18.339 seconds (process running for 19.499)
+04-01-2025 19:04:10.692 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+04-01-2025 19:04:10.693 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+04-01-2025 19:04:10.700 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+04-01-2025 19:06:37.688 [File Watcher] INFO  [,,] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+04-01-2025 19:06:41.349 [background-preinit] INFO  [,,] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+04-01-2025 19:06:41.489 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 25756 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+04-01-2025 19:06:41.495 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+04-01-2025 19:06:41.676 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+04-01-2025 19:06:41.681 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+04-01-2025 19:06:44.901 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-01-2025 19:06:45.075 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 145 ms. Found 1 JPA repository interface.
+04-01-2025 19:06:46.804 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+04-01-2025 19:06:46.835 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+04-01-2025 19:06:46.841 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+04-01-2025 19:06:46.842 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+04-01-2025 19:06:46.962 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+04-01-2025 19:06:46.963 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5275 ms
+04-01-2025 19:06:47.399 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 19:06:47.696 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 19:06:47.736 [restartedMain] DEBUG [,,] i.o.sdk.internal.JavaVersionSpecific - Using the APIs optimized for: Java 9+
+04-01-2025 19:06:48.029 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+04-01-2025 19:06:48.611 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-01-2025 19:06:48.820 [restartedMain] INFO  [,,] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.4.Final
+04-01-2025 19:06:48.937 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+04-01-2025 19:06:49.535 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+04-01-2025 19:06:49.579 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+04-01-2025 19:06:50.136 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c630e82
+04-01-2025 19:06:50.144 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+04-01-2025 19:06:50.298 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-01-2025 19:06:51.462 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+04-01-2025 19:06:52.983 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 19:06:53.418 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-01-2025 19:06:56.119 [restartedMain] INFO  [,,] o.s.b.f.s.DefaultListableBeanFactory - Creating singleton bean 'data-jpa.repository-aot-processor#0' in thread "restartedMain" while other thread holds singleton lock for other beans []
+04-01-2025 19:06:56.131 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+04-01-2025 19:06:56.133 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+04-01-2025 19:06:56.138 [restartedMain] INFO  [,,] o.s.b.f.s.DefaultListableBeanFactory - Creating singleton bean 'org.springframework.data.web.config.ProjectingArgumentResolverRegistrar' in thread "restartedMain" while other thread holds singleton lock for other beans [multipartResolver]
+04-01-2025 19:06:56.145 [restartedMain] INFO  [,,] o.s.b.f.s.DefaultListableBeanFactory - Creating singleton bean 'offsetResolver' in thread "restartedMain" while other thread holds singleton lock for other beans [org.springframework.boot.actuate.autoconfigure.endpoint.web.servlet.WebMvcEndpointManagementContextConfiguration, webEndpointServletHandlerMapping]
+04-01-2025 19:06:56.157 [restartedMain] INFO  [,,] o.s.b.f.s.DefaultListableBeanFactory - Creating singleton bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateConfiguration' in thread "restartedMain" while other thread holds singleton lock for other beans [management.endpoints.web.cors-org.springframework.boot.actuate.autoconfigure.endpoint.web.CorsEndpointProperties, webEndpointServletHandlerMapping]
+04-01-2025 19:06:56.163 [restartedMain] INFO  [,,] o.s.b.f.s.DefaultListableBeanFactory - Creating singleton bean 'jdbcTemplate' in thread "restartedMain" while other thread holds singleton lock for other beans [webEndpointServletHandlerMapping]
+04-01-2025 19:06:56.167 [restartedMain] INFO  [,,] o.s.b.f.s.DefaultListableBeanFactory - Creating singleton bean 'spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties' in thread "restartedMain" while other thread holds singleton lock for other beans [jdbcTemplate, webEndpointServletHandlerMapping]
+04-01-2025 19:06:56.183 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+04-01-2025 19:06:56.199 [restartedMain] INFO  [,,] o.s.b.f.s.DefaultListableBeanFactory - Creating singleton bean 'org.springframework.boot.autoconfigure.jdbc.NamedParameterJdbcTemplateConfiguration' in thread "restartedMain" while other thread holds singleton lock for other beans [webEndpointServletHandlerMapping]
+04-01-2025 19:06:56.207 [restartedMain] INFO  [,,] o.s.b.f.s.DefaultListableBeanFactory - Creating singleton bean 'namedParameterJdbcTemplate' in thread "restartedMain" while other thread holds singleton lock for other beans [webEndpointServletHandlerMapping]
+04-01-2025 19:06:56.229 [restartedMain] INFO  [,,] o.s.b.f.s.DefaultListableBeanFactory - Creating singleton bean 'org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration' in thread "restartedMain" while other thread holds singleton lock for other beans [controllerEndpointHandlerMapping]
+04-01-2025 19:06:56.234 [restartedMain] INFO  [,,] o.s.b.f.s.DefaultListableBeanFactory - Creating singleton bean 'org.springframework.boot.autoconfigure.jdbc.JdbcClientAutoConfiguration' in thread "restartedMain" while other thread holds singleton lock for other beans [controllerEndpointHandlerMapping]
+04-01-2025 19:06:56.248 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Completed initialization in 112 ms
+04-01-2025 19:06:56.396 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+04-01-2025 19:06:56.655 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+04-01-2025 19:06:56.734 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+04-01-2025 19:06:56.760 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 16.178 seconds (process running for 17.248)
+04-01-2025 19:54:48.856 [File Watcher] INFO  [,,] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+04-01-2025 19:54:48.934 [Thread-6] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+04-01-2025 19:54:48.936 [tomcat-shutdown] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+04-01-2025 19:54:48.942 [tomcat-shutdown] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+04-01-2025 19:54:48.943 [Thread-6] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+04-01-2025 19:54:48.953 [Thread-6] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 19:54:50.074 [Thread-6] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+04-01-2025 19:54:50.088 [Thread-6] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+04-01-2025 19:54:50.375 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 25756 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+04-01-2025 19:54:50.378 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+04-01-2025 19:54:51.886 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-01-2025 19:54:51.923 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+04-01-2025 19:54:52.286 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+04-01-2025 19:54:52.287 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+04-01-2025 19:54:52.289 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+04-01-2025 19:54:52.290 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+04-01-2025 19:54:52.357 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+04-01-2025 19:54:52.358 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1972 ms
+04-01-2025 19:54:52.412 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 19:54:52.467 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 19:54:52.516 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+04-01-2025 19:54:52.649 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-01-2025 19:54:52.655 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+04-01-2025 19:54:52.672 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+04-01-2025 19:54:52.673 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+04-01-2025 19:54:52.692 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f2feff1
+04-01-2025 19:54:52.694 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+04-01-2025 19:54:52.697 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-01-2025 19:54:52.722 [restartedMain] WARN  [,,] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unresolved compilation problem: 
+	out cannot be resolved or is not a field
+
+04-01-2025 19:54:52.724 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+04-01-2025 19:54:52.725 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+04-01-2025 19:54:52.726 [restartedMain] INFO  [,,] i.o.sdk.logs.SdkLoggerProvider - Calling shutdown() multiple times.
+04-01-2025 19:54:52.727 [restartedMain] INFO  [,,] i.o.e.internal.grpc.GrpcExporter - Calling shutdown() multiple times.
+04-01-2025 19:54:52.727 [restartedMain] INFO  [,,] i.o.sdk.trace.SdkTracerProvider - Calling shutdown() multiple times.
+04-01-2025 19:54:52.728 [restartedMain] INFO  [,,] i.o.e.internal.grpc.GrpcExporter - Calling shutdown() multiple times.
+04-01-2025 19:54:52.729 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Stopping service [Tomcat]
+04-01-2025 19:54:52.732 [restartedMain] WARN  [,,] o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [BatchSpanProcessor_WorkerThread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435)
+ io.opentelemetry.sdk.trace.export.BatchSpanProcessor$Worker.run(BatchSpanProcessor.java:266)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+04-01-2025 19:54:52.734 [restartedMain] WARN  [,,] o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [BatchLogRecordProcessor_WorkerThread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:435)
+ io.opentelemetry.sdk.logs.export.BatchLogRecordProcessor$Worker.run(BatchLogRecordProcessor.java:246)
+ java.base/java.lang.Thread.run(Thread.java:1583)
+04-01-2025 19:54:52.747 [restartedMain] INFO  [,,] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+04-01-2025 19:54:52.778 [restartedMain] ERROR [,,] o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unresolved compilation problem: 
+	out cannot be resolved or is not a field
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at priv.pgpm.cfi.CfiApplication.main(CfiApplication.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	out cannot be resolved or is not a field
+
+	at priv.pgpm.cfi.models.entities.base.CINSequenceGenerator.<init>(CINSequenceGenerator.java:74)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128)
+	at java.base/jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:304)
+	at java.base/java.lang.Class.newInstance(Class.java:725)
+	at org.hibernate.boot.model.internal.GeneratorBinder.instantiateGenerator(GeneratorBinder.java:488)
+	at org.hibernate.boot.model.internal.GeneratorBinder$3.produceBeanInstance(GeneratorBinder.java:451)
+	at org.springframework.orm.hibernate5.SpringBeanContainer.createBean(SpringBeanContainer.java:161)
+	at org.springframework.orm.hibernate5.SpringBeanContainer.getBean(SpringBeanContainer.java:111)
+	at org.hibernate.boot.model.internal.GeneratorBinder.instantiateGeneratorAsBean(GeneratorBinder.java:436)
+	at org.hibernate.boot.model.internal.GeneratorBinder.instantiateGenerator(GeneratorBinder.java:408)
+	at org.hibernate.boot.model.internal.GeneratorBinder.lambda$identifierGeneratorCreator$1(GeneratorBinder.java:385)
+	at org.hibernate.mapping.SimpleValue.createGenerator(SimpleValue.java:397)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.handleIdentifierValueBinding(InFlightMetadataCollectorImpl.java:2163)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processExportableProducers(InFlightMetadataCollectorImpl.java:2133)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.buildMetadataInstance(InFlightMetadataCollectorImpl.java:2085)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:346)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	... 18 common frames omitted
+04-01-2025 19:55:30.136 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 25756 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+04-01-2025 19:55:30.137 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+04-01-2025 19:55:30.739 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-01-2025 19:55:30.791 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+04-01-2025 19:55:31.098 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+04-01-2025 19:55:31.101 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+04-01-2025 19:55:31.102 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+04-01-2025 19:55:31.103 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+04-01-2025 19:55:31.155 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+04-01-2025 19:55:31.156 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1017 ms
+04-01-2025 19:55:31.240 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 19:55:31.278 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 19:55:31.316 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+04-01-2025 19:55:31.423 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-01-2025 19:55:31.440 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+04-01-2025 19:55:31.470 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+04-01-2025 19:55:31.473 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+04-01-2025 19:55:31.509 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70ae27a0
+04-01-2025 19:55:31.511 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+04-01-2025 19:55:31.515 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-01-2025 19:55:31.863 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+04-01-2025 19:55:35.494 [background-preinit] INFO  [,,] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+04-01-2025 19:55:35.600 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 19876 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+04-01-2025 19:55:35.603 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+04-01-2025 19:55:35.768 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+04-01-2025 19:55:35.772 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+04-01-2025 19:55:38.442 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-01-2025 19:55:38.553 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interface.
+04-01-2025 19:55:40.480 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+04-01-2025 19:55:40.523 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+04-01-2025 19:55:40.531 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+04-01-2025 19:55:40.532 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+04-01-2025 19:55:40.751 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+04-01-2025 19:55:40.753 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4972 ms
+04-01-2025 19:55:41.345 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 19:55:41.619 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 19:55:41.663 [restartedMain] DEBUG [,,] i.o.sdk.internal.JavaVersionSpecific - Using the APIs optimized for: Java 9+
+04-01-2025 19:55:41.963 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+04-01-2025 19:55:42.662 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-01-2025 19:55:42.756 [restartedMain] INFO  [,,] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.4.Final
+04-01-2025 19:55:42.816 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+04-01-2025 19:55:43.168 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+04-01-2025 19:55:43.212 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+04-01-2025 19:55:43.679 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d964fb3
+04-01-2025 19:55:43.685 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+04-01-2025 19:55:43.900 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-01-2025 19:55:45.049 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+04-01-2025 19:55:46.359 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 19:55:46.837 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-01-2025 19:55:49.115 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+04-01-2025 19:55:49.137 [restartedMain] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+04-01-2025 19:55:49.301 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+04-01-2025 19:55:49.351 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+04-01-2025 19:55:49.383 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 14.607 seconds (process running for 15.627)
+04-01-2025 19:55:49.946 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+04-01-2025 19:55:49.947 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+04-01-2025 19:55:49.950 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+04-01-2025 19:57:31.506 [File Watcher] INFO  [,,] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+04-01-2025 19:57:32.744 [Thread-6] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+04-01-2025 19:57:32.745 [tomcat-shutdown] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+04-01-2025 19:57:32.750 [tomcat-shutdown] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+04-01-2025 19:57:32.751 [Thread-6] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+04-01-2025 19:57:32.759 [Thread-6] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 19:57:33.310 [Thread-6] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+04-01-2025 19:57:33.325 [Thread-6] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+04-01-2025 19:57:33.467 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 19876 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+04-01-2025 19:57:33.469 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+04-01-2025 19:57:34.434 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-01-2025 19:57:34.496 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+04-01-2025 19:57:34.863 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+04-01-2025 19:57:34.865 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+04-01-2025 19:57:34.866 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+04-01-2025 19:57:34.867 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+04-01-2025 19:57:34.915 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+04-01-2025 19:57:34.916 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1436 ms
+04-01-2025 19:57:34.966 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 19:57:35.021 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 19:57:35.093 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+04-01-2025 19:57:35.271 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-01-2025 19:57:35.275 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+04-01-2025 19:57:35.292 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+04-01-2025 19:57:35.294 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+04-01-2025 19:57:35.317 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@304e9e62
+04-01-2025 19:57:35.318 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+04-01-2025 19:57:35.322 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-01-2025 19:57:35.442 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+04-01-2025 19:57:36.205 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 19:57:36.373 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-01-2025 19:57:37.160 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+04-01-2025 19:57:37.172 [restartedMain] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+04-01-2025 19:57:37.208 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+04-01-2025 19:57:37.219 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+04-01-2025 19:57:37.234 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 3.825 seconds (process running for 123.478)
+04-01-2025 19:57:37.241 [restartedMain] INFO  [,,] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+04-01-2025 20:05:26.625 [File Watcher] INFO  [,,] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+04-01-2025 20:05:26.767 [Thread-8] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+04-01-2025 20:05:26.768 [tomcat-shutdown] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+04-01-2025 20:05:26.774 [tomcat-shutdown] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+04-01-2025 20:05:26.775 [Thread-8] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+04-01-2025 20:05:26.783 [Thread-8] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 20:05:26.786 [Thread-8] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+04-01-2025 20:05:26.812 [Thread-8] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+04-01-2025 20:05:26.991 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 19876 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+04-01-2025 20:05:26.992 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+04-01-2025 20:05:30.327 [background-preinit] INFO  [,,] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+04-01-2025 20:05:30.486 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 20276 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+04-01-2025 20:05:30.489 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+04-01-2025 20:05:30.626 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+04-01-2025 20:05:30.629 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+04-01-2025 20:05:33.447 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-01-2025 20:05:33.558 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+04-01-2025 20:05:35.603 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+04-01-2025 20:05:35.643 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+04-01-2025 20:05:35.651 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+04-01-2025 20:05:35.652 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+04-01-2025 20:05:35.863 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+04-01-2025 20:05:35.867 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5235 ms
+04-01-2025 20:05:36.320 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 20:05:36.637 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 20:05:36.720 [restartedMain] DEBUG [,,] i.o.sdk.internal.JavaVersionSpecific - Using the APIs optimized for: Java 9+
+04-01-2025 20:05:37.231 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+04-01-2025 20:05:38.185 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-01-2025 20:05:38.267 [restartedMain] INFO  [,,] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.4.Final
+04-01-2025 20:05:38.322 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+04-01-2025 20:05:38.690 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+04-01-2025 20:05:38.721 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+04-01-2025 20:05:39.199 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71052290
+04-01-2025 20:05:39.202 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+04-01-2025 20:05:39.306 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-01-2025 20:05:40.610 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+04-01-2025 20:05:40.673 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 20:05:41.725 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-01-2025 20:05:44.055 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+04-01-2025 20:05:44.079 [restartedMain] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+04-01-2025 20:05:44.235 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+04-01-2025 20:05:44.273 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+04-01-2025 20:05:44.306 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 14.616 seconds (process running for 15.647)
+04-01-2025 20:05:45.408 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+04-01-2025 20:05:45.412 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+04-01-2025 20:05:45.420 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+04-01-2025 20:05:52.713 [http-nio-8080-exec-8] INFO  [,db57cadd2d2cd185f611509db64884b3,c4691c9c554d22f7] o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 456 ms
+04-01-2025 20:06:00.230 [http-nio-8080-exec-9] INFO  [,6b595b3abeb15afb09255488a8bc5139,720385eaec704a14] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:06:00.230082800
+04-01-2025 20:07:02.035 [http-nio-8080-exec-5] INFO  [,b4d0f7bc417eca32a335c2388d908d64,3646e1efb67b6c27] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:07:02.035282200
+04-01-2025 20:07:02.096 [http-nio-8080-exec-5] WARN  [,b4d0f7bc417eca32a335c2388d908d64,3646e1efb67b6c27] o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: null
+04-01-2025 20:07:02.096 [http-nio-8080-exec-5] ERROR [,b4d0f7bc417eca32a335c2388d908d64,3646e1efb67b6c27] o.h.e.jdbc.spi.SqlExceptionHelper - Sequence not found
+04-01-2025 20:07:02.117 [http-nio-8080-exec-5] ERROR [,,] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.jpa.JpaSystemException: error executing work [Sequence not found] [n/a]] with root cause
+java.sql.SQLException: Sequence not found
+	at priv.pgpm.cfi.models.entities.base.CINSequenceGenerator.lambda$0(CINSequenceGenerator.java:54)
+	at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:58)
+	at org.hibernate.internal.AbstractSharedSessionContract.lambda$doReturningWork$5(AbstractSharedSessionContract.java:1093)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.coordinateWork(JdbcCoordinatorImpl.java:303)
+	at org.hibernate.internal.AbstractSharedSessionContract.doWork(AbstractSharedSessionContract.java:1097)
+	at org.hibernate.internal.AbstractSharedSessionContract.doReturningWork(AbstractSharedSessionContract.java:1093)
+	at priv.pgpm.cfi.models.entities.base.CINSequenceGenerator.generate(CINSequenceGenerator.java:45)
+	at org.hibernate.id.IdentifierGenerator.generate(IdentifierGenerator.java:135)
+	at org.hibernate.event.internal.AbstractSaveEventListener.generateId(AbstractSaveEventListener.java:155)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:126)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:177)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:95)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:761)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:745)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy4/jdk.proxy4.$Proxy160.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320)
+	at jdk.proxy4/jdk.proxy4.$Proxy160.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:627)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy4/jdk.proxy4.$Proxy163.save(Unknown Source)
+	at priv.pgpm.cfi.services.InstructionProcessingService.acceptInstructionRequest(InstructionProcessingService.java:34)
+	at priv.pgpm.cfi.controllers.ClearanceController.acceptInstructions(ClearanceController.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+04-01-2025 20:11:01.663 [File Watcher] INFO  [,,] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+04-01-2025 20:11:04.151 [background-preinit] INFO  [,,] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+04-01-2025 20:11:04.243 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 11332 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+04-01-2025 20:11:04.246 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+04-01-2025 20:11:04.352 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+04-01-2025 20:11:04.353 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+04-01-2025 20:11:07.248 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-01-2025 20:11:07.451 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 154 ms. Found 1 JPA repository interface.
+04-01-2025 20:11:09.040 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+04-01-2025 20:11:09.062 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+04-01-2025 20:11:09.068 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+04-01-2025 20:11:09.070 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+04-01-2025 20:11:09.197 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+04-01-2025 20:11:09.197 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4842 ms
+04-01-2025 20:11:09.498 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 20:11:09.681 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 20:11:09.709 [restartedMain] DEBUG [,,] i.o.sdk.internal.JavaVersionSpecific - Using the APIs optimized for: Java 9+
+04-01-2025 20:11:09.945 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+04-01-2025 20:11:10.536 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-01-2025 20:11:10.653 [restartedMain] INFO  [,,] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.4.Final
+04-01-2025 20:11:10.732 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+04-01-2025 20:11:11.193 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+04-01-2025 20:11:11.238 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+04-01-2025 20:11:11.687 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44363176
+04-01-2025 20:11:11.689 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+04-01-2025 20:11:11.868 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-01-2025 20:11:13.378 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+04-01-2025 20:11:13.450 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 20:11:14.656 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-01-2025 20:11:16.645 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+04-01-2025 20:11:16.668 [restartedMain] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+04-01-2025 20:11:16.823 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+04-01-2025 20:11:16.870 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+04-01-2025 20:11:16.919 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 13.447 seconds (process running for 14.385)
+04-01-2025 20:11:18.749 [RMI TCP Connection(3)-127.0.0.1] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+04-01-2025 20:11:18.750 [RMI TCP Connection(3)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+04-01-2025 20:11:18.754 [RMI TCP Connection(3)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+04-01-2025 20:11:23.019 [http-nio-8080-exec-1] INFO  [,f1205750f90ee86b7fdc387b9b6e9be8,1d3234251c948b8f] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:11:23.019897200
+04-01-2025 20:11:23.060 [http-nio-8080-exec-1] WARN  [,f1205750f90ee86b7fdc387b9b6e9be8,1d3234251c948b8f] o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: null
+04-01-2025 20:11:23.063 [http-nio-8080-exec-1] ERROR [,f1205750f90ee86b7fdc387b9b6e9be8,1d3234251c948b8f] o.h.e.jdbc.spi.SqlExceptionHelper - Sequence not found
+04-01-2025 20:11:23.092 [http-nio-8080-exec-1] ERROR [,,] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.jpa.JpaSystemException: error executing work [Sequence not found] [n/a]] with root cause
+java.sql.SQLException: Sequence not found
+	at priv.pgpm.cfi.models.entities.base.CINSequenceGenerator.lambda$0(CINSequenceGenerator.java:54)
+	at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:58)
+	at org.hibernate.internal.AbstractSharedSessionContract.lambda$doReturningWork$5(AbstractSharedSessionContract.java:1093)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.coordinateWork(JdbcCoordinatorImpl.java:303)
+	at org.hibernate.internal.AbstractSharedSessionContract.doWork(AbstractSharedSessionContract.java:1097)
+	at org.hibernate.internal.AbstractSharedSessionContract.doReturningWork(AbstractSharedSessionContract.java:1093)
+	at priv.pgpm.cfi.models.entities.base.CINSequenceGenerator.generate(CINSequenceGenerator.java:45)
+	at org.hibernate.id.IdentifierGenerator.generate(IdentifierGenerator.java:135)
+	at org.hibernate.event.internal.AbstractSaveEventListener.generateId(AbstractSaveEventListener.java:155)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:126)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:177)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:95)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:761)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:745)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy4/jdk.proxy4.$Proxy160.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320)
+	at jdk.proxy4/jdk.proxy4.$Proxy160.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:627)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy4/jdk.proxy4.$Proxy163.save(Unknown Source)
+	at priv.pgpm.cfi.services.InstructionProcessingService.acceptInstructionRequest(InstructionProcessingService.java:34)
+	at priv.pgpm.cfi.controllers.ClearanceController.acceptInstructions(ClearanceController.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+04-01-2025 20:12:52.544 [http-nio-8080-exec-2] INFO  [,69eefd4f6ce20800b468f93b41fa57f4,28c454d0ce15cd28] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:12:52.544465100
+04-01-2025 20:12:52.552 [http-nio-8080-exec-2] WARN  [,69eefd4f6ce20800b468f93b41fa57f4,28c454d0ce15cd28] o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: S1009
+04-01-2025 20:12:52.552 [http-nio-8080-exec-2] ERROR [,69eefd4f6ce20800b468f93b41fa57f4,28c454d0ce15cd28] o.h.e.jdbc.spi.SqlExceptionHelper - Column Index out of range, 0 < 1.
+04-01-2025 20:12:52.563 [http-nio-8080-exec-2] ERROR [,,] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.jpa.JpaSystemException: error executing work [Column Index out of range, 0 < 1.] [n/a]] with root cause
+java.sql.SQLException: Column Index out of range, 0 < 1.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:81)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:55)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkColumnBounds(ResultSetImpl.java:511)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1310)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getLong(ResultSetImpl.java:878)
+	at com.zaxxer.hikari.pool.HikariProxyResultSet.getLong(HikariProxyResultSet.java)
+	at priv.pgpm.cfi.models.entities.base.CINSequenceGenerator.lambda$0(CINSequenceGenerator.java:52)
+	at org.hibernate.jdbc.WorkExecutor.executeReturningWork(WorkExecutor.java:58)
+	at org.hibernate.internal.AbstractSharedSessionContract.lambda$doReturningWork$5(AbstractSharedSessionContract.java:1093)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.coordinateWork(JdbcCoordinatorImpl.java:303)
+	at org.hibernate.internal.AbstractSharedSessionContract.doWork(AbstractSharedSessionContract.java:1097)
+	at org.hibernate.internal.AbstractSharedSessionContract.doReturningWork(AbstractSharedSessionContract.java:1093)
+	at priv.pgpm.cfi.models.entities.base.CINSequenceGenerator.generate(CINSequenceGenerator.java:45)
+	at org.hibernate.id.IdentifierGenerator.generate(IdentifierGenerator.java:135)
+	at org.hibernate.event.internal.AbstractSaveEventListener.generateId(AbstractSaveEventListener.java:155)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:126)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:177)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:95)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:761)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:745)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy4/jdk.proxy4.$Proxy160.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320)
+	at jdk.proxy4/jdk.proxy4.$Proxy160.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:627)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy4/jdk.proxy4.$Proxy163.save(Unknown Source)
+	at priv.pgpm.cfi.services.InstructionProcessingService.acceptInstructionRequest(InstructionProcessingService.java:34)
+	at priv.pgpm.cfi.controllers.ClearanceController.acceptInstructions(ClearanceController.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+04-01-2025 20:13:51.944 [File Watcher] INFO  [,,] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+04-01-2025 20:13:52.668 [Thread-6] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+04-01-2025 20:13:52.671 [tomcat-shutdown] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+04-01-2025 20:13:52.676 [tomcat-shutdown] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+04-01-2025 20:13:52.678 [Thread-6] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+04-01-2025 20:13:52.686 [Thread-6] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 20:13:52.693 [Thread-6] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+04-01-2025 20:13:52.746 [Thread-6] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+04-01-2025 20:13:52.994 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 11332 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+04-01-2025 20:13:52.995 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+04-01-2025 20:13:54.049 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-01-2025 20:13:54.097 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+04-01-2025 20:13:54.367 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+04-01-2025 20:13:54.368 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+04-01-2025 20:13:54.369 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+04-01-2025 20:13:54.370 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+04-01-2025 20:13:54.427 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+04-01-2025 20:13:54.428 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1424 ms
+04-01-2025 20:13:54.490 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 20:13:54.543 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 20:13:54.584 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+04-01-2025 20:13:54.791 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-01-2025 20:13:54.794 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+04-01-2025 20:13:54.813 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+04-01-2025 20:13:54.816 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+04-01-2025 20:13:54.908 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67560c1a
+04-01-2025 20:13:54.909 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+04-01-2025 20:13:54.912 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-01-2025 20:13:55.084 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+04-01-2025 20:13:55.101 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 20:13:55.436 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-01-2025 20:13:56.132 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+04-01-2025 20:13:56.140 [restartedMain] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+04-01-2025 20:13:56.188 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+04-01-2025 20:13:56.198 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+04-01-2025 20:13:56.215 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 3.289 seconds (process running for 173.679)
+04-01-2025 20:13:56.223 [restartedMain] INFO  [,,] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+04-01-2025 20:14:06.075 [http-nio-8080-exec-1] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+04-01-2025 20:14:06.076 [http-nio-8080-exec-1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+04-01-2025 20:14:06.076 [http-nio-8080-exec-1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+04-01-2025 20:14:06.112 [http-nio-8080-exec-1] INFO  [,2697643f12985350f8ea81259dd15dc3,ca2dc77f908d5e74] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:14:06.112721200
+04-01-2025 20:14:06.250 [http-nio-8080-exec-1] ERROR [,,] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.jpa.JpaSystemException: Could not set value of type [java.lang.Long]: 'priv.pgpm.cfi.models.entities.CMessage.cInstructionId' (setter)] with root cause
+java.lang.IllegalArgumentException: Can not set java.lang.String field priv.pgpm.cfi.models.entities.CMessage.cInstructionId to java.lang.Long
+	at java.base/jdk.internal.reflect.FieldAccessorImpl.throwSetIllegalArgumentException(FieldAccessorImpl.java:228)
+	at java.base/jdk.internal.reflect.FieldAccessorImpl.throwSetIllegalArgumentException(FieldAccessorImpl.java:232)
+	at java.base/jdk.internal.reflect.MethodHandleObjectFieldAccessorImpl.set(MethodHandleObjectFieldAccessorImpl.java:115)
+	at java.base/java.lang.reflect.Field.set(Field.java:836)
+	at org.hibernate.property.access.spi.SetterFieldImpl.set(SetterFieldImpl.java:57)
+	at org.hibernate.metamodel.mapping.internal.BasicEntityIdentifierMappingImpl.setIdentifier(BasicEntityIdentifierMappingImpl.java:163)
+	at org.hibernate.persister.entity.AbstractEntityPersister.setIdentifier(AbstractEntityPersister.java:4744)
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:130)
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:177)
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:95)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:761)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:745)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:364)
+	at jdk.proxy5/jdk.proxy5.$Proxy193.persist(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320)
+	at jdk.proxy5/jdk.proxy5.$Proxy193.persist(Unknown Source)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:627)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:752)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy5/jdk.proxy5.$Proxy195.save(Unknown Source)
+	at priv.pgpm.cfi.services.InstructionProcessingService.acceptInstructionRequest(InstructionProcessingService.java:34)
+	at priv.pgpm.cfi.controllers.ClearanceController.acceptInstructions(ClearanceController.java:55)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:114)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+04-01-2025 20:31:47.745 [background-preinit] INFO  [,,] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+04-01-2025 20:31:47.874 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 8940 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+04-01-2025 20:31:47.874 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+04-01-2025 20:31:48.017 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+04-01-2025 20:31:48.018 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+04-01-2025 20:31:50.529 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-01-2025 20:31:50.634 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interface.
+04-01-2025 20:31:52.381 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+04-01-2025 20:31:52.402 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+04-01-2025 20:31:52.406 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+04-01-2025 20:31:52.407 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+04-01-2025 20:31:52.609 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+04-01-2025 20:31:52.611 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4592 ms
+04-01-2025 20:31:53.052 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 20:31:53.256 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 20:31:53.290 [restartedMain] DEBUG [,,] i.o.sdk.internal.JavaVersionSpecific - Using the APIs optimized for: Java 9+
+04-01-2025 20:31:53.574 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+04-01-2025 20:31:54.222 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-01-2025 20:31:54.328 [restartedMain] INFO  [,,] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.4.Final
+04-01-2025 20:31:54.396 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+04-01-2025 20:31:54.987 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+04-01-2025 20:31:55.055 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+04-01-2025 20:31:55.511 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@772d9886
+04-01-2025 20:31:55.516 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+04-01-2025 20:31:55.656 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-01-2025 20:31:57.173 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+04-01-2025 20:31:57.252 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 20:31:58.782 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-01-2025 20:32:01.514 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+04-01-2025 20:32:01.558 [restartedMain] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+04-01-2025 20:32:01.795 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+04-01-2025 20:32:01.875 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+04-01-2025 20:32:01.955 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 15.0 seconds (process running for 16.324)
+04-01-2025 20:32:02.428 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+04-01-2025 20:32:02.430 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+04-01-2025 20:32:02.435 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+04-01-2025 20:32:08.665 [http-nio-8080-exec-2] INFO  [,f15c450069246beb9befd016840f6098,0dfd2734c2ed0bfe] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:08.664034600
+04-01-2025 20:32:29.054 [http-nio-8080-exec-1] INFO  [,1455f51d9228f6bd89c15d31bbf6181d,4f5b04a434366dbd] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:29.054363300
+04-01-2025 20:32:29.227 [http-nio-8080-exec-4] INFO  [,07147ca2820275ec30b5c9cc60deeafa,b615d74cb62e4a1e] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:29.227585600
+04-01-2025 20:32:29.354 [http-nio-8080-exec-5] INFO  [,a965975559c7a471abdfc3567223eb92,abdf169b07a9e16f] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:29.354819600
+04-01-2025 20:32:29.537 [http-nio-8080-exec-3] INFO  [,f4ef25f73c0840506b66a217589d7321,75247ac0ac5c93fc] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:29.537692900
+04-01-2025 20:32:29.764 [http-nio-8080-exec-6] INFO  [,3e77974148af839582b562d6b494d33a,bcb09adbb03a7996] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:29.764874400
+04-01-2025 20:32:29.959 [http-nio-8080-exec-7] INFO  [,445ce12839be9e653fead3af6767206d,693b298f717b6d74] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:29.959135200
+04-01-2025 20:32:30.145 [http-nio-8080-exec-8] INFO  [,a6ce33ef9adee523259566edcf8e7377,007d90819e35a8d1] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:30.145615200
+04-01-2025 20:32:30.340 [http-nio-8080-exec-10] INFO  [,3318e70cd25ad4e219d17dc970737244,60e4c07c418fb90a] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:30.340436600
+04-01-2025 20:32:32.934 [http-nio-8080-exec-9] INFO  [,8e0b362490e04831da701099efaf1957,5e825f1ff4e8c214] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:32.934576
+04-01-2025 20:32:33.076 [http-nio-8080-exec-2] INFO  [,5f7fc276aaf9786ac7c524e8122d222a,d625e6f0662f3035] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:33.076352100
+04-01-2025 20:32:33.249 [http-nio-8080-exec-1] INFO  [,6d0ff161392f393a276aaa608cdc70a9,e0e20d5ce5aa1cc1] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:33.249513700
+04-01-2025 20:32:33.417 [http-nio-8080-exec-4] INFO  [,af89988a86b204c8509c5f08d200c24b,052fde5c3d0f7e59] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:33.417390100
+04-01-2025 20:32:33.557 [http-nio-8080-exec-5] INFO  [,b7ac6aa9ed65c94abc4dd635677e2b7e,f2cee31f88245b45] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:33.557818200
+04-01-2025 20:32:33.847 [http-nio-8080-exec-3] INFO  [,b914011240df70539b6b799c5f5a66ba,1e38de1b7f7f525b] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:33.847973700
+04-01-2025 20:32:34.035 [http-nio-8080-exec-6] INFO  [,df5fc18f7720ceed0f94f7062f4c9ac8,8c58b7b1da91a589] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:34.034658600
+04-01-2025 20:32:34.224 [http-nio-8080-exec-7] INFO  [,c8952bd20feadd8e54539a1c4588fce0,e8fa882123c4c59e] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:34.224079200
+04-01-2025 20:32:34.411 [http-nio-8080-exec-8] INFO  [,35a755e0f81a12bca3f578858c8e3d21,12247d77fc7ebfa2] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:34.411255600
+04-01-2025 20:32:34.568 [http-nio-8080-exec-10] INFO  [,9f6513c77db737e1ffa8c410212dbfca,595d15563eb14caa] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T20:32:34.568304800
+04-01-2025 21:11:55.254 [File Watcher] INFO  [,,] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+04-01-2025 21:11:55.333 [Thread-6] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+04-01-2025 21:11:55.335 [tomcat-shutdown] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+04-01-2025 21:11:55.340 [tomcat-shutdown] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+04-01-2025 21:11:55.341 [Thread-6] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+04-01-2025 21:11:55.348 [Thread-6] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 21:11:55.353 [Thread-6] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+04-01-2025 21:11:55.370 [Thread-6] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+04-01-2025 21:11:55.554 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 8940 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+04-01-2025 21:11:55.557 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+04-01-2025 21:11:56.386 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-01-2025 21:11:56.439 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+04-01-2025 21:11:56.728 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+04-01-2025 21:11:56.729 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+04-01-2025 21:11:56.730 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+04-01-2025 21:11:56.731 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+04-01-2025 21:11:56.770 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+04-01-2025 21:11:56.771 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1206 ms
+04-01-2025 21:11:56.823 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 21:11:56.866 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 21:11:56.918 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+04-01-2025 21:11:57.054 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-01-2025 21:11:57.057 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+04-01-2025 21:11:57.073 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+04-01-2025 21:11:57.076 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+04-01-2025 21:11:57.094 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c1ec0ed
+04-01-2025 21:11:57.095 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+04-01-2025 21:11:57.099 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-01-2025 21:11:57.229 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+04-01-2025 21:11:57.241 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 21:11:57.576 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-01-2025 21:11:58.194 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+04-01-2025 21:11:58.201 [restartedMain] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+04-01-2025 21:11:58.230 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+04-01-2025 21:11:58.237 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+04-01-2025 21:11:58.274 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 2.762 seconds (process running for 2412.643)
+04-01-2025 21:11:58.288 [restartedMain] INFO  [,,] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+04-01-2025 21:12:07.077 [background-preinit] INFO  [,,] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+04-01-2025 21:12:07.199 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 7240 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+04-01-2025 21:12:07.203 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+04-01-2025 21:12:07.338 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+04-01-2025 21:12:07.339 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+04-01-2025 21:12:10.153 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-01-2025 21:12:10.284 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109 ms. Found 1 JPA repository interface.
+04-01-2025 21:12:12.230 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+04-01-2025 21:12:12.253 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+04-01-2025 21:12:12.257 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+04-01-2025 21:12:12.259 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+04-01-2025 21:12:12.390 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+04-01-2025 21:12:12.393 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5051 ms
+04-01-2025 21:12:12.745 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 21:12:12.933 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 21:12:12.965 [restartedMain] DEBUG [,,] i.o.sdk.internal.JavaVersionSpecific - Using the APIs optimized for: Java 9+
+04-01-2025 21:12:13.173 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+04-01-2025 21:12:13.790 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-01-2025 21:12:13.862 [restartedMain] INFO  [,,] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.4.Final
+04-01-2025 21:12:13.911 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+04-01-2025 21:12:14.223 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+04-01-2025 21:12:14.271 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+04-01-2025 21:12:14.727 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bd4ef17
+04-01-2025 21:12:14.730 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+04-01-2025 21:12:14.885 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-01-2025 21:12:16.255 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+04-01-2025 21:12:16.345 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 21:12:17.623 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-01-2025 21:12:19.698 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+04-01-2025 21:12:19.747 [restartedMain] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+04-01-2025 21:12:19.912 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+04-01-2025 21:12:19.951 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+04-01-2025 21:12:19.979 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 13.615 seconds (process running for 14.63)
+04-01-2025 21:12:21.840 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+04-01-2025 21:12:21.842 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+04-01-2025 21:12:21.846 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+04-01-2025 21:12:30.076 [http-nio-8080-exec-1] INFO  [,c1bd4b36aa9f075656b2ad684a2b7ddf,6942ef497197cfc0] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:12:30.076228
+04-01-2025 21:12:30.417 [http-nio-8080-exec-2] INFO  [,955cf8df93c51648beeaf8b68a6fed5c,04987dbe18e25352] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:12:30.415783300
+04-01-2025 21:15:02.868 [File Watcher] INFO  [,,] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+04-01-2025 21:15:03.397 [Thread-6] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+04-01-2025 21:15:03.401 [tomcat-shutdown] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+04-01-2025 21:15:03.411 [tomcat-shutdown] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+04-01-2025 21:15:03.413 [Thread-6] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+04-01-2025 21:15:03.427 [Thread-6] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 21:15:03.434 [Thread-6] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+04-01-2025 21:15:03.463 [Thread-6] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+04-01-2025 21:15:03.648 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 7240 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+04-01-2025 21:15:03.655 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+04-01-2025 21:15:04.653 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-01-2025 21:15:04.690 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+04-01-2025 21:15:04.964 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+04-01-2025 21:15:04.966 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+04-01-2025 21:15:04.967 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+04-01-2025 21:15:04.968 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+04-01-2025 21:15:05.000 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+04-01-2025 21:15:05.001 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1341 ms
+04-01-2025 21:15:05.042 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 21:15:05.077 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+04-01-2025 21:15:05.124 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+04-01-2025 21:15:05.274 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+04-01-2025 21:15:05.277 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+04-01-2025 21:15:05.294 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+04-01-2025 21:15:05.296 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+04-01-2025 21:15:05.323 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b909e96
+04-01-2025 21:15:05.324 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+04-01-2025 21:15:05.327 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-01-2025 21:15:05.473 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+04-01-2025 21:15:05.490 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-01-2025 21:15:05.754 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04-01-2025 21:15:06.439 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+04-01-2025 21:15:06.445 [restartedMain] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+04-01-2025 21:15:06.480 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+04-01-2025 21:15:06.490 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+04-01-2025 21:15:06.503 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 2.932 seconds (process running for 181.153)
+04-01-2025 21:15:06.508 [restartedMain] INFO  [,,] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+04-01-2025 21:15:16.753 [http-nio-8080-exec-1] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+04-01-2025 21:15:16.754 [http-nio-8080-exec-1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+04-01-2025 21:15:16.757 [http-nio-8080-exec-1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+04-01-2025 21:15:16.790 [http-nio-8080-exec-1] INFO  [,fffae7d6cd04dfc8c4abb737b654d99f,3cf9316a95a2f2b3] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:15:16.789801
+04-01-2025 21:15:43.644 [http-nio-8080-exec-2] INFO  [,d03a0649f8b23eeb566a797b3df5d11d,413418877a2f3d4e] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:15:43.644084900
+04-01-2025 21:15:51.173 [http-nio-8080-exec-3] INFO  [,496b843626c172367feef25cab34fc24,5b339d54bd5534ec] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:15:51.173052800
+04-01-2025 21:15:56.586 [http-nio-8080-exec-4] INFO  [,bac0d415b1849fd477a50028a9220248,68d1cc719fe940bf] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:15:56.586989
+04-01-2025 21:15:56.822 [http-nio-8080-exec-8] INFO  [,1e108bb4f99b2439f1b8dd230cdbf1f5,f9dea5cb7cdc1d39] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:15:56.822082600
+04-01-2025 21:15:56.992 [http-nio-8080-exec-7] INFO  [,acd393c1f5c781170308347f3c5b4656,0b76c162c5537218] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:15:56.992651500
+04-01-2025 21:16:07.067 [http-nio-8080-exec-5] INFO  [,ae9026974d13af52d7431b0e1e4bcdd9,51cb8f2c8db18f88] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:07.067049800
+04-01-2025 21:16:07.190 [http-nio-8080-exec-6] INFO  [,ef6eae5f6ba74976e9109531ff52e61b,ca63d4d7629351e1] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:07.190629100
+04-01-2025 21:16:07.316 [http-nio-8080-exec-9] INFO  [,46fed3352bd402c18670ac739b053427,c35b36e26ae82427] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:07.316421500
+04-01-2025 21:16:08.176 [http-nio-8080-exec-10] INFO  [,e90be6bece41d43680ab03b37de0655c,ec5f6c33ad678d20] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:08.176413100
+04-01-2025 21:16:11.632 [http-nio-8080-exec-1] INFO  [,f26592948accab6387faadfd266e5473,eda96aef467a65d9] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:11.632005200
+04-01-2025 21:16:12.827 [http-nio-8080-exec-2] INFO  [,9555f2b86f78acad7cc2165894df8796,c4a8142b37497057] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:12.827505
+04-01-2025 21:16:40.886 [http-nio-8080-exec-3] INFO  [,d5fb3041a4eab8664b0504fa6dcd119c,3b301aaef02e5b8d] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:40.886694500
+04-01-2025 21:16:41.194 [http-nio-8080-exec-4] INFO  [,3d45f24d41b2545e8edd7301231010c1,17417f9439104b24] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:41.194642600
+04-01-2025 21:16:41.363 [http-nio-8080-exec-8] INFO  [,381db1b5299fe69eb61d08933f442328,95758521db21f634] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:41.363669100
+04-01-2025 21:16:41.557 [http-nio-8080-exec-7] INFO  [,4e5139a95afcba05caa2bd40e14b2389,0ad51067b027e956] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:41.557177500
+04-01-2025 21:16:41.747 [http-nio-8080-exec-5] INFO  [,d24b96445f225fefed8e3482c0302386,4b53048c31fa8011] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:41.747913200
+04-01-2025 21:16:41.848 [http-nio-8080-exec-6] INFO  [,522ef77f4e248ed4f3f9dbcc4d2aa8c2,6059edab75fd874e] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:41.847632800
+04-01-2025 21:16:42.051 [http-nio-8080-exec-9] INFO  [,839dd5c46b71666a3c689c12a53834c7,51084a0e43840cdd] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:42.051268500
+04-01-2025 21:16:42.142 [http-nio-8080-exec-10] INFO  [,53d57c1ff68bbbcc050340d466a4c7a6,34fa247b9d3d0c18] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:42.142085200
+04-01-2025 21:16:42.332 [http-nio-8080-exec-1] INFO  [,3665bebde49f089f9ed66eacd8108942,ea6a013404d57b59] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:42.332476300
+04-01-2025 21:16:43.230 [http-nio-8080-exec-2] INFO  [,cf5626db526f8f856a10746167ea9593,39d71fc529c806c0] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:43.230471
+04-01-2025 21:16:43.394 [http-nio-8080-exec-3] INFO  [,7bcd2f309ba5d6c08893fa7994aa5929,173355c3d344b7c7] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:43.394638400
+04-01-2025 21:16:43.721 [http-nio-8080-exec-4] INFO  [,de462adfe5a680b84e90a1f8e4f4b1cd,f66d3776a1f68ee0] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:43.721279200
+04-01-2025 21:16:43.824 [http-nio-8080-exec-8] INFO  [,ba5efb4cb65e81802e6218522ee9af23,5b3d31b997a7fdcc] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:43.824649300
+04-01-2025 21:16:44.016 [http-nio-8080-exec-7] INFO  [,37c65ea535da992f747898985d2b8a8f,87d39ac131556840] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:44.016224500
+04-01-2025 21:16:44.200 [http-nio-8080-exec-5] INFO  [,496f14af60ac74a62c347ce6c6253d28,73164949716478a4] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:44.200795600
+04-01-2025 21:16:45.212 [http-nio-8080-exec-6] INFO  [,c3ebf08d1d18c03ab79124e54c8bde13,d4b9c15378171eee] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:45.212632200
+04-01-2025 21:16:45.700 [http-nio-8080-exec-9] INFO  [,c9cdd9f1016e34ae81c5f327dafeece0,c2e4392cd5700a4b] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:45.700088200
+04-01-2025 21:16:45.825 [http-nio-8080-exec-10] INFO  [,15cb95444404fba264bc53b92c315e0f,2853a1d5babebcf8] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:45.825300700
+04-01-2025 21:16:46.092 [http-nio-8080-exec-1] INFO  [,0e63e283f54a3c8ae9d668b461d8c03d,13fef7ac938aae86] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:46.092621900
+04-01-2025 21:16:46.414 [http-nio-8080-exec-2] INFO  [,516e17d7c491e2f2323b577cca5023a4,7d71eeaa6bf2b0ba] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:46.414406
+04-01-2025 21:16:46.602 [http-nio-8080-exec-3] INFO  [,73fd221b28738f5c9c07ba8971db6f81,63d783f67da46afc] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:46.602821400
+04-01-2025 21:16:46.694 [http-nio-8080-exec-4] INFO  [,4e67aa7284a94ac54cab2f3f8bf1daa2,0a85d976d8e4ac27] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:46.694586
+04-01-2025 21:16:46.803 [http-nio-8080-exec-8] INFO  [,216616c51522641c84ed0519338f29f3,458375b054437d6f] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:46.803414300
+04-01-2025 21:16:46.900 [http-nio-8080-exec-7] INFO  [,b3f133f65ff5f606e13b428134059fe9,a43bdb53942766a7] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:46.900174900
+04-01-2025 21:16:47.097 [http-nio-8080-exec-5] INFO  [,ddf2e2dfb87968ff9c9535f2317ce64f,d20582466f8d475b] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:47.096666900
+04-01-2025 21:16:47.407 [http-nio-8080-exec-6] INFO  [,a64e952f661e1adef587d9b017615c5f,2ae58e1849abb5d0] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:16:47.407845100
+04-01-2025 21:17:21.947 [http-nio-8080-exec-9] INFO  [,5879fb80fed111fe284ede0d545a913a,af9ea9cc6b7cf441] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:21.947109800
+04-01-2025 21:17:22.114 [http-nio-8080-exec-10] INFO  [,70556528da2304675a49e0b707d3a670,f66f4c31d279fea5] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:22.114668300
+04-01-2025 21:17:22.283 [http-nio-8080-exec-1] INFO  [,1ef421ec3d21a8263143507298a315f4,5546072883bc51bf] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:22.283584400
+04-01-2025 21:17:22.402 [http-nio-8080-exec-2] INFO  [,7bbcfaef3093df46583ad68a151536ce,4bc6e00d7bb0da09] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:22.402134400
+04-01-2025 21:17:58.229 [http-nio-8080-exec-3] INFO  [,492bf3940d696520bf61e9dc6832d2dc,11be014ff324533a] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:58.228790200
+04-01-2025 21:17:58.351 [http-nio-8080-exec-4] INFO  [,a4b835bc69f6697a614a64424b050e1a,15c4e27f71b853f5] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:58.351503100
+04-01-2025 21:17:58.529 [http-nio-8080-exec-8] INFO  [,88060ff139366fc2b181951c747e4a3f,85598968c30b314b] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:58.529272800
+04-01-2025 21:17:58.669 [http-nio-8080-exec-7] INFO  [,f9098877a0504503abcc5b14c71bf6b9,edc5da1b162f0534] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:58.669736600
+04-01-2025 21:17:58.884 [http-nio-8080-exec-5] INFO  [,87f55e9e8d8d559a5299ca1f4b2653c9,7cce5b5e104747de] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:58.884131600
+04-01-2025 21:17:58.992 [http-nio-8080-exec-6] INFO  [,45e7cb0fcb7d26fab2385a84ef965609,f74e8d55f792cf46] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:58.992624
+04-01-2025 21:17:59.105 [http-nio-8080-exec-9] INFO  [,8aa989150196645d116825a17dd90a9d,fb6cc99bd7e3818c] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:59.105576200
+04-01-2025 21:17:59.386 [http-nio-8080-exec-10] INFO  [,f85cbc3de03a41fee048632923bcf78e,4ee4edb696faa740] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:59.386320500
+04-01-2025 21:17:59.488 [http-nio-8080-exec-1] INFO  [,c1765c7e8de8720c81d1dbbf99bd0064,737d5266f770d39d] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:59.487264800
+04-01-2025 21:17:59.688 [http-nio-8080-exec-2] INFO  [,26fa18b77697d74e22ae269ab7e51959,4377baaa71083c25] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:59.688604900
+04-01-2025 21:17:59.787 [http-nio-8080-exec-3] INFO  [,249966562844c7cc9eee9cbabe7b33e9,baf847101585bba4] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:59.787510100
+04-01-2025 21:17:59.982 [http-nio-8080-exec-4] INFO  [,c0375dae845d9bf853bfcd07856c6d92,b49accb52601d4d0] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:17:59.982538500
+04-01-2025 21:18:00.169 [http-nio-8080-exec-8] INFO  [,99e626991704e1d7e1be1c868100780c,7cf14b509197333e] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:00.168319200
+04-01-2025 21:18:00.298 [http-nio-8080-exec-7] INFO  [,c0e5ad379e125986d273721625044613,bc00bf0b1aa91194] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:00.298777900
+04-01-2025 21:18:00.924 [http-nio-8080-exec-5] INFO  [,0a2c2bc13305ff2306df541ab47749e5,92927e90722f66f0] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:00.924582100
+04-01-2025 21:18:01.175 [http-nio-8080-exec-6] INFO  [,2f480e4a8451162fbe982008edcffeb8,fbfe599ba473bf0d] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:01.175137600
+04-01-2025 21:18:01.331 [http-nio-8080-exec-9] INFO  [,f4e1f010b31a03526661abfd938da68c,0a96968d32762f46] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:01.331064900
+04-01-2025 21:18:01.449 [http-nio-8080-exec-10] INFO  [,a063dfc8b6e226691dc46076fb2a64a0,fe77a3e00fd371ed] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:01.449652300
+04-01-2025 21:18:01.785 [http-nio-8080-exec-1] INFO  [,e2adebdf108e8a591a4adc0e52846ec6,ed1916ed4391e0b2] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:01.785863200
+04-01-2025 21:18:01.942 [http-nio-8080-exec-2] INFO  [,9a46e200af2afd64a328b212419eaf3b,6e861e2eafa92772] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:01.942252100
+04-01-2025 21:18:02.078 [http-nio-8080-exec-3] INFO  [,c1a9aa0c7be4c2f432de8dd296240318,65765d45ea10ccd2] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:02.078927600
+04-01-2025 21:18:02.200 [http-nio-8080-exec-4] INFO  [,aa30849b636820ca6f711deb49014a78,6fcdf32284782aef] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:02.200586800
+04-01-2025 21:18:02.328 [http-nio-8080-exec-8] INFO  [,328aceeb570e8edd8c42599370c06178,e5140066633b788c] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:02.328503300
+04-01-2025 21:18:02.436 [http-nio-8080-exec-7] INFO  [,b47db6e3b28ade9b29ce5afe52f5cbea,df93525d6e725f93] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:02.436889200
+04-01-2025 21:18:02.534 [http-nio-8080-exec-5] INFO  [,87c8ec67cc364f53ab224678e823c900,37473b07b07a91f1] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:02.534367600
+04-01-2025 21:18:02.817 [http-nio-8080-exec-6] INFO  [,9998b1b42b3fbea855cde4b405e544cc,ed2e27ff85379893] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:02.817614600
+04-01-2025 21:18:02.930 [http-nio-8080-exec-9] INFO  [,6fb1ff937fa944fd1cd2bd6cd5e42f13,98c2c10bfa3a6757] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:02.930865600
+04-01-2025 21:18:03.026 [http-nio-8080-exec-10] INFO  [,22a24ab0649c7b5c35497d0f451b9b9c,407c8e1116a947e1] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:03.026682
+04-01-2025 21:18:03.127 [http-nio-8080-exec-1] INFO  [,09dcfdc04357f6662ea60e96d481c07d,89deee05e0291a37] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:03.127923500
+04-01-2025 21:18:03.223 [http-nio-8080-exec-2] INFO  [,c492d0d1411311e9e010e60ca2ffdcff,cfcaf2e3e4e395b2] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:03.223813400
+04-01-2025 21:18:03.427 [http-nio-8080-exec-3] INFO  [,9cf9f72c8e58977af5a416ea05fa633d,ecd8a62abdcd4e5b] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:03.427880100
+04-01-2025 21:18:03.598 [http-nio-8080-exec-4] INFO  [,092048e4c401d6d48b1926144916d63e,0e0d105b1eba7dc7] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:03.598874100
+04-01-2025 21:18:03.719 [http-nio-8080-exec-8] INFO  [,ed13b9c3bbad6319cc3caf94cbf98704,febdf3f4be0cdd23] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:03.719903400
+04-01-2025 21:18:03.914 [http-nio-8080-exec-7] INFO  [,81bf6cda73f327ed95d8f1d15fa92212,40364de23436d907] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:03.914020400
+04-01-2025 21:18:04.148 [http-nio-8080-exec-5] INFO  [,383329eeb2bb980134b270760ad1042e,32e797fa54aa0e3a] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:18:04.148434100
+04-01-2025 21:21:25.022 [http-nio-8080-exec-9] INFO  [,1d315c534e7a559fd0d6150eb868f0f7,a2a2bc6ea7043d47] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:21:25.022325700
+04-01-2025 21:21:25.647 [http-nio-8080-exec-10] INFO  [,dc3eaa78aa4964d4a263d8c5d3907383,159a39a4bb34004d] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:21:25.647271300
+04-01-2025 21:21:25.840 [http-nio-8080-exec-1] INFO  [,c45e8b8750d59f41e6b12c41187c9b30,7adf1697abc65f85] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:21:25.840272600
+04-01-2025 21:21:26.009 [http-nio-8080-exec-2] INFO  [,b00702fb3466d832d6923bbc4029f3f5,8547537b16f5b915] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:21:26.009016
+04-01-2025 21:21:26.191 [http-nio-8080-exec-3] INFO  [,87237d25dab41a2733e339d086af70f0,6026afe5912ecbff] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:21:26.191037200
+04-01-2025 21:21:26.763 [http-nio-8080-exec-4] INFO  [,f0f7d25e7f2810832874c22242e657b7,f1a00d3022396ca5] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:21:26.763343
+04-01-2025 21:21:26.940 [http-nio-8080-exec-8] INFO  [,3263e61607ed9759c500f252f781c3dc,3334832eee2220e9] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:21:26.940009600
+04-01-2025 21:21:27.091 [http-nio-8080-exec-7] INFO  [,0089931809d552f4de0e7b356439bfad,b90ab20072087bd7] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:21:27.091048
+04-01-2025 21:21:27.269 [http-nio-8080-exec-5] INFO  [,aa3493af2e4ce05cd59b60e35457c515,1f329f9473029837] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:21:27.269374500
+04-01-2025 21:21:27.463 [http-nio-8080-exec-6] INFO  [,acc31877cc0d5485feef96849555aff7,1a60d60a2bc6d290] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:21:27.463150
+04-01-2025 21:26:25.145 [http-nio-8080-exec-10] INFO  [,f65c2dcd4b8e5a61f5cf7782a5b87c56,18e35b7278a5d48b] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:26:25.145210800
+04-01-2025 21:26:25.313 [http-nio-8080-exec-1] INFO  [,3acc3ff9e9ed00e38d7f7f2e1afb0dcc,ed64c45abfefd104] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:26:25.313622200
+04-01-2025 21:26:25.489 [http-nio-8080-exec-2] INFO  [,636e95111338700cc6bfee098dd9fcf6,38a598e2c1b9ec3a] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:26:25.489576200
+04-01-2025 21:26:25.679 [http-nio-8080-exec-3] INFO  [,cd91fe743b52f6845e1f88fb4f55acd6,3048fbf77e8e9458] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:26:25.678386100
+04-01-2025 21:26:25.776 [http-nio-8080-exec-4] INFO  [,c4b11af1bc6afa00447e941b578447d5,ec1a3988e2dcbb44] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:26:25.776561900
+04-01-2025 21:26:25.946 [http-nio-8080-exec-8] INFO  [,a4b9b1bc92167b4f5b32dc95dcc85fbb,13ab8087b103a584] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:26:25.946975200
+04-01-2025 21:26:26.245 [http-nio-8080-exec-7] INFO  [,2660057642d21631c380a54235667a6a,79bb3aeebcb6ff01] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:26:26.245875
+04-01-2025 21:26:26.461 [http-nio-8080-exec-5] INFO  [,17a2e9a8b394dc08fdb1b462bab4ea6c,bbb3a600aede2daa] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:26:26.461557600
+04-01-2025 21:26:26.742 [http-nio-8080-exec-6] INFO  [,49405be788fb5eca0e78c79976dcc5b1,fb48797574f0cb6b] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:26:26.742356300
+04-01-2025 21:26:26.896 [http-nio-8080-exec-9] INFO  [,b733c9c78b1c9a92427477b562cc0eaa,66307705846bde15] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:26:26.896724300
+04-01-2025 21:26:27.091 [http-nio-8080-exec-10] INFO  [,7b7e9be642f900632a82fc3c96d6e8df,dd8655a1b8b2ae90] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:26:27.091031500
+04-01-2025 21:27:32.603 [http-nio-8080-exec-2] WARN  [,2f00cf77073dc9ddf19c02de26c91fec,8cb9787abad28fdb] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+04-01-2025 21:27:58.521 [http-nio-8080-exec-3] WARN  [,19c1583223fe9e69b450a2b864a7e7d6,937e44b693d8a849] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<?> priv.pgpm.cfi.controllers.ClearanceController.acceptInstructions(priv.pgpm.cfi.models.requests.InstructionRequest,org.springframework.validation.BindingResult)]
+04-01-2025 21:28:23.029 [http-nio-8080-exec-4] INFO  [,6b2b0f813a1ed8fa2b166c2ae5208fdd,b35688a882922bdc] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:28:23.029971600
+04-01-2025 21:28:28.387 [http-nio-8080-exec-8] INFO  [,89e54c7e46c0d7785cca0e07505cb855,a72f3f6bbe0c4eda] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:28:28.387376100
+04-01-2025 21:28:43.449 [http-nio-8080-exec-7] INFO  [,26a1f99c2e05f47ac9afcd0029dbb5f0,5671cb91c91729ac] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:28:43.449190300
+04-01-2025 21:30:06.154 [http-nio-8080-exec-6] INFO  [,584b5e689c1db725109d30e0b185156b,5edc46a8ba7a13a6] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:30:06.153714900
+04-01-2025 21:30:06.299 [http-nio-8080-exec-9] INFO  [,670ef89deebeda85e7d487bdc374e0d0,e76dfa6ce2585e60] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:30:06.299464300
+04-01-2025 21:30:06.437 [http-nio-8080-exec-10] INFO  [,4b22cf9cea857f77e92cf465e52a7cdc,01d105597a25ce24] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:30:06.437944400
+04-01-2025 21:30:06.624 [http-nio-8080-exec-1] INFO  [,ffa82f193ea67e1128e16396ddbf4525,5f1a758c82a39b85] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:30:06.623425800
+04-01-2025 21:30:06.817 [http-nio-8080-exec-2] INFO  [,3d39a7071577b6c12d4339c359c1222c,82ed73425789db39] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:30:06.817668
+04-01-2025 21:30:06.928 [http-nio-8080-exec-3] INFO  [,a8839d7bc1046f4f92db3a9e44d56410,6cb37cc02cc93b93] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:30:06.928209300
+04-01-2025 21:30:07.024 [http-nio-8080-exec-4] INFO  [,502dd68676d6fb1830850dea7d32717e,6424aa615d2a7a11] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:30:07.024278300
+04-01-2025 21:30:07.476 [http-nio-8080-exec-8] INFO  [,9b4585f6e4f70870c38a7540b6eb8eb6,8a6f741700fc140f] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:30:07.476726200
+04-01-2025 21:30:07.582 [http-nio-8080-exec-7] INFO  [,1f57109017b1ac220981504d7b01623f,c275e08d2522e023] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:30:07.582026400
+04-01-2025 21:30:07.774 [http-nio-8080-exec-5] INFO  [,88bbf86d426d072921b4cddb5f5625c7,60e8e16d43f3b30f] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:30:07.774307500
+04-01-2025 21:30:07.875 [http-nio-8080-exec-6] INFO  [,0c5ed2eb676590f9d8338ea2631cea4f,1b670aef245ff40a] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:30:07.875410600
+04-01-2025 21:30:07.975 [http-nio-8080-exec-9] INFO  [,6735cdef51fa0f683b2f20ec7f112873,815a84fa70b3025b] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:30:07.975137200
+04-01-2025 21:34:54.323 [http-nio-8080-exec-1] INFO  [,edb7c56e88abf373905a45241886e76d,4ff8903a1fa06c91] p.p.c.c.ClearanceController - accept-instructions as 2025-01-04T21:34:54.323776300
+08-01-2025 15:12:11.078 [background-preinit] INFO  [,,] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+08-01-2025 15:12:11.177 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 11588 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+08-01-2025 15:12:11.177 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+08-01-2025 15:12:11.303 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+08-01-2025 15:12:11.303 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+08-01-2025 15:12:14.132 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-01-2025 15:12:14.257 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 105 ms. Found 1 JPA repository interface.
+08-01-2025 15:12:15.862 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+08-01-2025 15:12:15.883 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08-01-2025 15:12:15.888 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+08-01-2025 15:12:15.889 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+08-01-2025 15:12:16.007 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08-01-2025 15:12:16.008 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4704 ms
+08-01-2025 15:12:16.433 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+08-01-2025 15:12:16.709 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+08-01-2025 15:12:16.734 [restartedMain] DEBUG [,,] i.o.sdk.internal.JavaVersionSpecific - Using the APIs optimized for: Java 9+
+08-01-2025 15:12:16.942 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+08-01-2025 15:12:17.612 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-01-2025 15:12:17.767 [restartedMain] INFO  [,,] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.4.Final
+08-01-2025 15:12:17.840 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+08-01-2025 15:12:18.396 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+08-01-2025 15:12:18.433 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+08-01-2025 15:12:18.982 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c630e82
+08-01-2025 15:12:18.984 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+08-01-2025 15:12:19.289 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+08-01-2025 15:12:20.672 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+08-01-2025 15:12:20.774 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-01-2025 15:12:21.828 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-01-2025 15:12:24.364 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+08-01-2025 15:12:24.381 [restartedMain] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+08-01-2025 15:12:24.474 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+08-01-2025 15:12:24.496 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+08-01-2025 15:12:24.522 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 14.052 seconds (process running for 15.244)
+08-01-2025 15:12:25.547 [RMI TCP Connection(3)-127.0.0.1] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-01-2025 15:12:25.548 [RMI TCP Connection(3)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+08-01-2025 15:12:25.550 [RMI TCP Connection(3)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+08-01-2025 15:12:35.930 [http-nio-8080-exec-8] INFO  [,287e8ca4c0b8cc4d36da7f7ff2f1a699,ef4ca22b48046639] o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 305 ms
+08-01-2025 15:14:03.417 [http-nio-8080-exec-3] INFO  [,44fbe1db94b47613b5360ce85def8968,1cb863ffe9dc4b71] p.p.c.c.ClearanceController - accept-instructions as 2025-01-08T15:14:03.417458100
+08-01-2025 15:14:28.880 [http-nio-8080-exec-2] INFO  [,6b5e4cbd9a87639bac770f320d3ed4c6,0b8512c6af9ab45e] p.p.c.c.ClearanceController - accept-instructions as 2025-01-08T15:14:28.880192500
+08-01-2025 15:18:54.139 [File Watcher] INFO  [,,] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+08-01-2025 15:18:54.193 [Thread-6] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+08-01-2025 15:18:54.196 [tomcat-shutdown] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+08-01-2025 15:18:54.206 [tomcat-shutdown] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+08-01-2025 15:18:54.208 [Thread-6] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+08-01-2025 15:18:54.219 [Thread-6] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-01-2025 15:18:54.226 [Thread-6] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+08-01-2025 15:18:54.256 [Thread-6] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+08-01-2025 15:18:54.480 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 11588 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+08-01-2025 15:18:54.485 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+08-01-2025 15:18:58.361 [background-preinit] INFO  [,,] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+08-01-2025 15:18:58.460 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 1996 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+08-01-2025 15:18:58.463 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+08-01-2025 15:18:58.580 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+08-01-2025 15:18:58.581 [restartedMain] INFO  [,,] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+08-01-2025 15:19:01.930 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-01-2025 15:19:02.114 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 155 ms. Found 1 JPA repository interface.
+08-01-2025 15:19:03.725 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+08-01-2025 15:19:03.743 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08-01-2025 15:19:03.746 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+08-01-2025 15:19:03.747 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+08-01-2025 15:19:03.843 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08-01-2025 15:19:03.844 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5260 ms
+08-01-2025 15:19:04.196 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+08-01-2025 15:19:04.417 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+08-01-2025 15:19:04.463 [restartedMain] DEBUG [,,] i.o.sdk.internal.JavaVersionSpecific - Using the APIs optimized for: Java 9+
+08-01-2025 15:19:04.769 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+08-01-2025 15:19:05.526 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-01-2025 15:19:05.647 [restartedMain] INFO  [,,] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.4.Final
+08-01-2025 15:19:05.692 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+08-01-2025 15:19:06.062 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+08-01-2025 15:19:06.104 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+08-01-2025 15:19:06.588 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c630e82
+08-01-2025 15:19:06.594 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+08-01-2025 15:19:06.838 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+08-01-2025 15:19:08.129 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+08-01-2025 15:19:08.193 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-01-2025 15:19:09.283 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-01-2025 15:19:11.434 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+08-01-2025 15:19:11.457 [restartedMain] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+08-01-2025 15:19:11.587 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+08-01-2025 15:19:11.608 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+08-01-2025 15:19:11.638 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 13.985 seconds (process running for 14.897)
+08-01-2025 15:19:12.978 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-01-2025 15:19:12.979 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+08-01-2025 15:19:12.984 [RMI TCP Connection(2)-127.0.0.1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+08-01-2025 15:20:00.858 [File Watcher] INFO  [,,] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+08-01-2025 15:20:01.347 [Thread-6] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+08-01-2025 15:20:01.350 [tomcat-shutdown] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+08-01-2025 15:20:01.356 [tomcat-shutdown] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+08-01-2025 15:20:01.358 [Thread-6] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+08-01-2025 15:20:01.367 [Thread-6] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-01-2025 15:20:01.377 [Thread-6] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+08-01-2025 15:20:01.413 [Thread-6] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+08-01-2025 15:20:01.577 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 1996 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+08-01-2025 15:20:01.581 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+08-01-2025 15:20:02.487 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-01-2025 15:20:02.517 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+08-01-2025 15:20:02.748 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+08-01-2025 15:20:02.750 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08-01-2025 15:20:02.751 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+08-01-2025 15:20:02.752 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+08-01-2025 15:20:02.805 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08-01-2025 15:20:02.806 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1220 ms
+08-01-2025 15:20:02.862 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+08-01-2025 15:20:02.928 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+08-01-2025 15:20:02.998 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+08-01-2025 15:20:03.158 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-01-2025 15:20:03.163 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+08-01-2025 15:20:03.183 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+08-01-2025 15:20:03.186 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+08-01-2025 15:20:03.208 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13c1d69b
+08-01-2025 15:20:03.210 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+08-01-2025 15:20:03.213 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+08-01-2025 15:20:03.311 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+08-01-2025 15:20:05.231 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-01-2025 15:20:05.410 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-01-2025 15:20:06.020 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+08-01-2025 15:20:06.027 [restartedMain] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+08-01-2025 15:20:06.065 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+08-01-2025 15:20:06.078 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+08-01-2025 15:20:06.092 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 4.567 seconds (process running for 69.351)
+08-01-2025 15:20:06.100 [restartedMain] INFO  [,,] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+08-01-2025 15:21:01.648 [File Watcher] INFO  [,,] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+08-01-2025 15:21:01.705 [Thread-8] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+08-01-2025 15:21:01.707 [tomcat-shutdown] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+08-01-2025 15:21:01.716 [tomcat-shutdown] INFO  [,,] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+08-01-2025 15:21:01.717 [Thread-8] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+08-01-2025 15:21:01.721 [Thread-8] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+08-01-2025 15:21:02.147 [Thread-8] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+08-01-2025 15:21:02.161 [Thread-8] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+08-01-2025 15:21:02.273 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Starting CfiApplication using Java 21.0.4 with PID 1996 (D:\Arpit Sharma\Downloads\PGPM\cfi\target\classes started by Arpit Sharma in D:\Arpit Sharma\Downloads\PGPM)
+08-01-2025 15:21:02.274 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - No active profile set, falling back to 1 default profile: "default"
+08-01-2025 15:21:02.857 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+08-01-2025 15:21:02.895 [restartedMain] INFO  [,,] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+08-01-2025 15:21:03.145 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+08-01-2025 15:21:03.147 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+08-01-2025 15:21:03.148 [restartedMain] INFO  [,,] o.a.catalina.core.StandardService - Starting service [Tomcat]
+08-01-2025 15:21:03.149 [restartedMain] INFO  [,,] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+08-01-2025 15:21:03.204 [restartedMain] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08-01-2025 15:21:03.205 [restartedMain] INFO  [,,] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 928 ms
+08-01-2025 15:21:03.268 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+08-01-2025 15:21:03.344 [restartedMain] DEBUG [,,] i.o.e.i.grpc.GrpcExporterBuilder - Using GrpcSender: io.opentelemetry.exporter.sender.okhttp.internal.OkHttpGrpcSender
+08-01-2025 15:21:03.402 [restartedMain] INFO  [,,] i.m.c.i.push.PushMeterRegistry - Publishing metrics for OtlpMeterRegistry every 5m to http://localhost:4318/v1/metrics with resource attributes {service.name=cfi}
+08-01-2025 15:21:03.530 [restartedMain] INFO  [,,] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+08-01-2025 15:21:03.532 [restartedMain] INFO  [,,] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+08-01-2025 15:21:03.549 [restartedMain] INFO  [,,] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+08-01-2025 15:21:03.551 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+08-01-2025 15:21:03.572 [restartedMain] INFO  [,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55c3f35c
+08-01-2025 15:21:03.573 [restartedMain] INFO  [,,] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+08-01-2025 15:21:03.576 [restartedMain] INFO  [,,] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 9.0.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+08-01-2025 15:21:03.693 [restartedMain] INFO  [,,] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+08-01-2025 15:21:05.016 [restartedMain] INFO  [,,] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+08-01-2025 15:21:05.201 [restartedMain] WARN  [,,] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+08-01-2025 15:21:05.656 [restartedMain] INFO  [,,] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+08-01-2025 15:21:05.663 [restartedMain] INFO  [,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoints beneath base path '/actuator'
+08-01-2025 15:21:05.689 [restartedMain] INFO  [,,] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+08-01-2025 15:21:05.699 [restartedMain] INFO  [,,] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+08-01-2025 15:21:05.709 [restartedMain] INFO  [,,] priv.pgpm.cfi.CfiApplication - Started CfiApplication in 3.469 seconds (process running for 128.969)
+08-01-2025 15:21:05.715 [restartedMain] INFO  [,,] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+08-01-2025 15:22:18.577 [http-nio-8080-exec-1] INFO  [,,] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08-01-2025 15:22:18.577 [http-nio-8080-exec-1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+08-01-2025 15:22:18.577 [http-nio-8080-exec-1] INFO  [,,] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+08-01-2025 15:22:18.757 [http-nio-8080-exec-1] INFO  [,0b5fd973a6ba510479ee546527a0126f,224d0c7a24afd8dc] p.p.c.c.ClearanceController - accept-instructions as 2025-01-08T15:22:18.757868100

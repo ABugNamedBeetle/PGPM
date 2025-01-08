@@ -9,12 +9,16 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonSetter;
 
 import io.micrometer.common.lang.NonNull;
+import jakarta.persistence.Column;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.AccessLevel;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 import lombok.val;
 import priv.pgpm.cfi.exceptions.InstructionInputException;
 
@@ -31,10 +35,14 @@ public class InstructionMessage{
     
     protected String destinationVirtualAccount;
 
+   
     protected InstructionMessage.PurposeCode purposeCode;
 
+    
     public static enum PurposeCode{
         CLEARANCE,
         CASH_SETTELMENT
+
+
     }
 }

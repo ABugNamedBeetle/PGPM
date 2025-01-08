@@ -1,7 +1,7 @@
 package priv.pgpm.cfi.models.entities;
 
 import org.hibernate.annotations.GenericGenerator;
-import org.hibernate.id.factory.spi.CustomIdGeneratorCreationContext;
+
 
 import jakarta.annotation.Generated;
 import jakarta.persistence.Column;
@@ -28,8 +28,8 @@ public class CMessage extends BaseInstructionMessage { // clearning message
      * refrence even dupplicate
      */
     @Id
-    @Column(name = "Id")
-    @CINSequenceID(name = "sds", incrementBy = 1)
+    // @Column(name = "Id")
+    @CINSequenceID(name = "cmessage_seq", incrementBy = 1)
     // @GeneratedValue(generator = "custom-order-id")
     // @GenericGenerator(
     //     name = "custom-order-id",
@@ -39,5 +39,12 @@ public class CMessage extends BaseInstructionMessage { // clearning message
     private String cRequestId;
 
     
+    @Data
+    @Entity(name = "cmessage_seq")
+    public static class CMessageSequence{
+        @Id
+        private Integer id;
+        private Long value;
 
+    }
 }

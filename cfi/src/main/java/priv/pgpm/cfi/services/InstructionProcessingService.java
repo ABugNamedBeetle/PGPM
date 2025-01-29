@@ -25,6 +25,8 @@ public class InstructionProcessingService {
 
     public InstructionResponse.Accepted acceptInstructionRequest(String requestId, List<InstructionMessage> messages) {
         CMessage c = new CMessage();
+        c.setIncomingRequestId(requestId);
+        c.setIncomingInstructionId(messages.get(0).getInstructionId());
         c.setAmount(messages.get(0).getAmount());
         c.setBenificiaryFSC(messages.get(0).getBenificiaryFSC());
         c.setCurrencyCode(messages.get(0).getCurrencyCode());

@@ -16,11 +16,6 @@
                 "severity": "warning"
               }
             },
-            "jdt": {
-              "ls": {
-                "lombokSupport": "enabled"
-              }
-            },
             "configuration": {
               "updateBuildConfiguration": "interactive",
               "maven": {

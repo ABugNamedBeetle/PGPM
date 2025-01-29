@@ -24,18 +24,15 @@ import priv.pgpm.cfi.models.core.InstructionMessage;
 @EntityListeners(AuditingEntityListener.class)
 public class BaseInstructionMessage {
 
-    // @Id
-    // @GeneratedValue(strategy = GenerationType.AUTO)
-    private int uuid;
-
     @CreatedDate
     private LocalDateTime createdDate;
 
     @LastModifiedDate
     private LocalDateTime updatedDate;
 
-    private String refRequestId;
-    protected Long refInstructionId;
+    private String incomingRequestId;
+    protected Long incomingInstructionId;
+
     protected Long amount;
     protected Currency currencyCode;
     protected String originatorFSC;

@@ -15,28 +15,20 @@ import lombok.EqualsAndHashCode;
 import priv.pgpm.cfi.models.core.InstructionMessage;
 import priv.pgpm.cfi.models.entities.base.BaseInstructionMessage;
 import priv.pgpm.cfi.models.entities.base.CINSequenceID;
+import priv.pgpm.cfi.models.entities.base.SequenceValueID;
 
 @Entity(name = "CMESSAGE_REGISTER")
 @Data
 @EqualsAndHashCode(callSuper = false)
 public class CMessage extends BaseInstructionMessage { // clearning message
 
-    // external
-
-    /**
-     * genrated internally for internal refrence,as external system can send any
-     * refrence even dupplicate
-     */
+    
     @Id
-    // @Column(name = "Id")
     @CINSequenceID(name = "cmessage_seq", incrementBy = 1)
-    // @GeneratedValue(generator = "custom-order-id")
-    // @GenericGenerator(
-    //     name = "custom-order-id",
-    //     strategy = "priv.pgpm.cfi.models.entities.base.CINSequenceGenerator"
-    // )
-    private String cInstructionId;
-    private String cRequestId;
+    private String messageId;
+
+    @SequenceValueID(prefix = "CREQ", correlation = "c_request_seq")
+    private String requestId;
 
     
     @Data

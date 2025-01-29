@@ -75,4 +75,14 @@ public class HomeController {
 
     }
 
+
+    @GetMapping("throw")
+    public void throwError() throws Exception {
+        String g = LocalDateTime.now().toString();
+
+        // CMessage m = new CMessage();
+        // m.getInstructionId()
+        throw new Exception("exception thrown at " + g);
+
+    }
 }
